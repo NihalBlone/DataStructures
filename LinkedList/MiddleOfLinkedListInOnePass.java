@@ -12,7 +12,7 @@ public class MiddleOfLinkedListInOnePass {
         li.append(1);
         li.append(2);
         li.append(3);
-      
+
 
         Node node = li.headNode;
         Node slow = node, fast;
