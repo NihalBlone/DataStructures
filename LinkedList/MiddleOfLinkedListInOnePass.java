@@ -1,9 +1,5 @@
 package LinkedList;
 
-import sun.awt.image.ImageWatched;
-
-import java.util.LinkedList;
-
 public class MiddleOfLinkedListInOnePass {
 
     public static void main(String args[]){
