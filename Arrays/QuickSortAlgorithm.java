@@ -1,15 +1,14 @@
 package Arrays;
 
-import com.sun.xml.internal.bind.v2.model.annotation.Quick;
-
 import java.util.Arrays;
+
 
 public class QuickSortAlgorithm {
 
 
 
     public static void main(String args[]) {
-       int unSortedArr[] = new int[]{5, 6, 7, 3, 6, 9, 23, 1, 0};
+       int unSortedArr[] = new int[]{6, 5, 7, 3, 6, 9, 23, 1, 0};
        //int unSortedArr[] = new int[]{10, 8, 11, 9, 11, 12, 12};
         //int unSortedArr[] = new int[]{15, 9, 7, 13, 12, 16, 4, 18, 11};
         int length = unSortedArr.length;
@@ -20,7 +19,7 @@ public class QuickSortAlgorithm {
 
     }
 
-    int partiionMiddlePivot(int[] arr, int low, int high){
+    int partitionMiddlePivot(int[] arr, int low, int high){
         System.out.println(low + "::" + high);
         int pivot = arr[(low+high)/2];
         System.out.println("pivot: "+pivot);
@@ -51,7 +50,7 @@ public class QuickSortAlgorithm {
 
     public void quickSort(int[] unSortedArray, int low, int high){
 
-        int pi = partiionMiddlePivot(unSortedArray, low, high);
+        int pi = partitionMiddlePivot(unSortedArray, low, high);
         if(low<high){
             quickSort(unSortedArray, low, pi-1);
 

@@ -4,6 +4,7 @@ public class ImplementationOfBST {
     Node root = null;
 
     public static void main(String args[]){
+
         int[] valArr =  new int[] {5, 3, 9, 1, 6};
         ImplementationOfBST imp = new ImplementationOfBST();
         for(int i = 0; i<valArr.length ; i++){

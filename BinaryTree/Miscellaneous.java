@@ -1,5 +1,38 @@
 package BinaryTree;
 
+/*
+Input: parent[] = {1, 5, 5, 2, 2, -1, 3}
+Output: root of below tree
+          5
+        /  \
+       1    2
+      /    / \
+     0    3   4
+         /
+        6
+Explanation:
+Index of -1 is 5.  So 5 is root.
+5 is present at indexes 1 and 2.  So 1 and 2 are
+children of 5.
+1 is present at index 0, so 0 is child of 1.
+2 is present at indexes 3 and 4.  So 3 and 4 are
+children of 2.
+3 is present at index 6, so 6 is child of 3.
+
+
+Input: parent[] = {-1, 0, 0, 1, 1, 3, 5};
+Output: root of below tree
+         0
+       /   \
+      1     2
+     / \
+    3   4
+   /
+  5
+ /
+6
+ */
+
 public class Miscellaneous {
     static Node root = null;
 
